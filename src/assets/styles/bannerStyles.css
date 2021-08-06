@@ -173,5 +173,8 @@
   .about-text {
     font-size: 0.9em;
   }
+  .contact-container img {
+    width: 2.5em;
+  }
 }
 /*# sourceMappingURL=bannerStyles.css.map */
