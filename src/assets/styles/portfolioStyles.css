@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.portfolio-container {
+  width: 80vw;
+  margin-top: 1em;
+}
+
+.portfolio-post {
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio-post-text {
+  padding: 0em 1em 1em 1em;
+  width: 95%;
+}
+
+.portfolio-post-title {
+  font-size: 0.95em;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .portfolio-post-title {
+    text-align: left;
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 991.99px) {
+  .portfolio-post-title {
+    font-size: 1.1em;
+  }
+}
+/*# sourceMappingURL=portfolioStyles.css.map */

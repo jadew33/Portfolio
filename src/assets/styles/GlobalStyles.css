@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.purple-text {
+  color: #9900cc;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.purple-text:hover {
+  color: #c61aff;
+}
+
+.green-text {
+  color: #009933;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.green-text:hover {
+  color: #00e64d;
+}
+
+.gray-text {
+  color: #a0a0a0;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.gray-text:hover {
+  color: #bebebe;
+}
+
+.monospace {
+  font-family: "Source Code Pro", monospace;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.grow:hover {
+  -webkit-transition: -webkit-transform 5s ease-in-out;
+  transition: -webkit-transform 5s ease-in-out;
+  transition: transform 5s ease-in-out;
+  transition: transform 5s ease-in-out, -webkit-transform 5s ease-in-out;
+}
+
+.grow:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=GlobalStyles.css.map */

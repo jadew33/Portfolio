@@ -1,0 +1,144 @@
+@import "./variables";
+.profile-banner-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  justify-self: center;
+  filter: grayscale(40%);
+  width: 80vw;
+  height: 20vh;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.profile-banner-image {
+  border-radius: 50%;
+  transition: filter 1s ease-in-out;
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 5em;
+}
+
+.profile-banner-container:hover {
+  filter: none;
+}
+
+.profile-banner-hello {
+  position: absolute;
+  height: 2em;
+  width: 4em;
+  top: 5em;
+  right: 3.5em;
+}
+
+.profile-banner-text {
+  font-size: 0.6em;
+  position: absolute;
+  line-height: 1em;
+}
+
+.about-container {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.about-title {
+  font-size: 1em;
+}
+
+.about-text {
+  font-size: 0.7em;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 2em;
+}
+
+.contact-container a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.5em;
+  margin: 1em;
+}
+
+@media (min-width: $sm) {
+  .about-container {
+    width: 75vw;
+  }
+}
+
+@media (min-width: $md) {
+  .profile-banner-container {
+    height: 12vh;
+  }
+  .profile-banner-hello {
+    right: 0em;
+  }
+  .profile-banner-image {
+    width: 6em;
+    height: 6em;
+  }
+  .about-container {
+    width: 75vw;
+  }
+}
+
+@media (min-width: $lg) {
+  .profile-banner-container {
+    height: 25vh;
+    width: 28vw;
+    margin-left: 1em;
+    padding-top: 2em;
+  }
+  .profile-banner-image {
+    width: 8em;
+    height: 8em;
+    top: 8em;
+  }
+  .profile-banner-hello {
+    top: 8em;
+    height: 3em;
+    width: 6em;
+    left: 9.5em;
+  }
+  .about-container {
+    width: 43vw;
+    margin-left: none;
+    margin-top: 5em;
+  }
+  .about-text {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: $xl) {
+  .profile-banner-text {
+    font-size: 0.7em;
+    line-height: 1.2em;
+  }
+  .profile-banner-container {
+    justify-content: space-between;
+    height: 35vh;
+  }
+  .profile-banner-image {
+    width: 10em;
+    height: 10em;
+    top: 8.5em;
+    right: 12.5em;
+  }
+  .profile-banner-hello {
+    width: 8em;
+    height: 4em;
+    right: 20em;
+  }
+  .about-text {
+    font-size: 0.9em;
+  }
+}

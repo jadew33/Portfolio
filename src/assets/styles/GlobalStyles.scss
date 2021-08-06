@@ -1,0 +1,44 @@
+@import "./variables";
+
+.purple-text {
+  color: $dark-purple;
+  transition: color 0.5s ease-in-out;
+}
+
+.purple-text:hover {
+  color: $light-purple;
+}
+
+.green-text {
+  color: $dark-green;
+  transition: color 0.5s ease-in-out;
+}
+
+.green-text:hover {
+  color: $light-green;
+}
+
+.gray-text {
+  color: $dark-gray;
+  transition: color 0.5s ease-in-out;
+}
+
+.gray-text:hover {
+  color: $light-gray;
+}
+
+.monospace {
+  font-family: $source-code-pro;
+}
+
+.montserrat {
+  font-family: $montserrat;
+}
+
+.grow:hover {
+  transition: transform 5s ease-in-out;
+}
+
+.grow:hover img {
+  transform: scale(1.1);
+}

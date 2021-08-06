@@ -1,0 +1,30 @@
+@import "./variables";
+
+.App {
+  display: flex;
+  background-color: $background-color;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+.app-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: $lg) {
+  .app-left {
+    flex-direction: row;
+  }
+}
