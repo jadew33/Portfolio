@@ -18,7 +18,7 @@ export default class Contact extends Component {
         </a>
         <a
           className="purple-text monospace grow contact__icons"
-          href="https://www.linkedin.com/in/jade-wei-8b9122219/"
+          href="https://www.linkedin.com/in/jade-wei/"
         >
           <p>LinkedIn</p>
           <img src={linkedin} />
