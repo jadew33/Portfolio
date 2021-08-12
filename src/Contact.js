@@ -10,21 +10,21 @@ export default class Contact extends Component {
     return (
       <div className="contact-container">
         <a
-          className="purple-text monospace grow"
+          className="purple-text monospace grow contact__icons"
           href="https://github.com/jadew33"
         >
           <p>Github</p>
           <img src={github} />
         </a>
         <a
-          className="purple-text monospace grow"
+          className="purple-text monospace grow contact__icons"
           href="https://www.linkedin.com/in/jade-wei-8b9122219/"
         >
           <p>LinkedIn</p>
           <img src={linkedin} />
         </a>
         <a
-          className="purple-text monospace grow"
+          className="purple-text monospace grow contact__icons"
           href="https://docs.google.com/document/d/1N4f5kk1QvZUCciZAA7ygkHwsjifrTQWwL-_MGEfsTj4/edit?usp=sharing"
         >
           <p>Resume</p>

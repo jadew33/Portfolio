@@ -5,6 +5,7 @@ import "./assets/styles/GlobalStyles.scss";
 import zanzibarWeb from "./assets/videos/zanzibar_demo.mp4";
 import zanzibarJava from "./assets/videos/zanzibar_java.mp4";
 import budgeter from "./assets/videos/budgeter_fx.mp4";
+import catInsta from "./assets/videos/cat-insta.mp4";
 
 import PortfolioPost from "./PortfolioPost";
 export default class Portfolio extends Component {
@@ -13,8 +14,14 @@ export default class Portfolio extends Component {
     this.state = {
       projects: [
         {
+          link: catInsta,
+          technologies: "#React #HTML #CSS/SCSS #JS #React-Router-Dom",
+          description:
+            "Instagram app for cats! Project to practice JS, React components, mark up, and react-router",
+        },
+        {
           link: zanzibarWeb,
-          technologies: "#React #HTML #CSS #JS",
+          technologies: "#React #HTML #CSS/SCSS #JS",
           description:
             "A graphical recreation of a zanzibar game originally coded in Java.",
         },
