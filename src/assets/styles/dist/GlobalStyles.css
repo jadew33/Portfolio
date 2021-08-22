@@ -1,56 +1,54 @@
-@import "./variables";
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .purple-text {
-  color: $dark-purple;
+  color: #9900cc;
   transition: color 0.5s ease-in-out;
 }
 
 .purple-text:hover {
-  color: $light-purple;
+  color: #c61aff;
 }
 
 .green-text {
-  color: $dark-green;
+  color: #009933;
   transition: color 0.5s ease-in-out;
 }
 
 .green-text:hover {
-  color: $light-green;
+  color: #00e64d;
 }
 
 .gray-text {
-  color: $dark-gray;
+  color: #a0a0a0;
   transition: color 0.5s ease-in-out;
 }
 
 .gray-text:hover {
-  color: $light-gray;
+  color: #bebebe;
 }
 
 .monospace {
-  font-family: $source-code-pro;
+  font-family: "Source Code Pro", monospace;
 }
 
 .montserrat {
-  font-family: $montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 
 .grow:hover {
   transition: transform 5s ease-in-out;
 }
 
-@media (max-width: $md) {
+@media (max-width: 767.99px) {
   .grow:hover img {
     transform: scale(0.2);
   }
 }
-
-@media (min-width: $md) {
+@media (min-width: 767.99px) {
   .grow:hover img {
     transform: scale(1.1);
   }
 }
-
 .grow:hover i {
   transform: scale(2.6);
 }

@@ -6,6 +6,7 @@ import zanzibarWeb from "./assets/videos/zanzibar_demo.mp4";
 import zanzibarJava from "./assets/videos/zanzibar_java.mp4";
 import budgeter from "./assets/videos/budgeter_fx.mp4";
 import catInsta from "./assets/videos/cat-insta.mp4";
+import reskale from "./assets/videos/reskale.mp4";
 
 import PortfolioPost from "./PortfolioPost";
 export default class Portfolio extends Component {
@@ -13,6 +14,12 @@ export default class Portfolio extends Component {
     super(props);
     this.state = {
       projects: [
+        {
+          link: reskale,
+          technologies: "#React #HTML #CSS/SCSS #JS #React-Router-Dom",
+          description:
+            "Won Scotiabank sponsered challenge at HackThe6ix! Designed by Jehnesa Hersman and Chan Ik Chris Jung with backend done by David Chen. I translated the designers' ideas into code with React.",
+        },
         {
           link: catInsta,
           technologies: "#React #HTML #CSS/SCSS #JS #React-Router-Dom",

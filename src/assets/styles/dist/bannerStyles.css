@@ -1,4 +1,5 @@
-@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .profile-banner-container {
   display: flex;
   flex-direction: row;
@@ -11,6 +12,7 @@
   margin-bottom: 3em;
   margin-top: 3em;
 }
+
 .profile-banner-image {
   border-radius: 50%;
   transition: filter 1s ease-in-out;
@@ -57,25 +59,23 @@
   justify-content: space-evenly;
   position: relative;
   margin-bottom: 4em;
-  img {
-    transform: scale(0.45);
-    position: absolute;
-    top: 1em;
-  }
-  i {
-    transform: scale(2.3);
-  }
-  .fa-linkedin {
-    color: #2867b2;
-  }
-
-  .fa-github {
-    color: $dark-gray;
-  }
-
-  .fa-file-alt {
-    color: $dark-gray;
-  }
+}
+.contact-container img {
+  transform: scale(0.45);
+  position: absolute;
+  top: 1em;
+}
+.contact-container i {
+  transform: scale(2.3);
+}
+.contact-container .fa-linkedin {
+  color: #2867b2;
+}
+.contact-container .fa-github {
+  color: #a0a0a0;
+}
+.contact-container .fa-file-alt {
+  color: #a0a0a0;
 }
 
 .contact-container a {
@@ -87,86 +87,92 @@
   margin-inline: 1em;
 }
 
-@media (min-width: $sm) {
+@media (min-width: 600px) {
   .about-container {
     width: 75vw;
   }
 }
-
-@media (min-width: $md) {
+@media (min-width: 767.99px) {
   .profile-banner-container {
     height: 12vh;
   }
+
   .profile-banner-hello {
     right: 0em;
   }
+
   .profile-banner-image {
     width: 6em;
     height: 6em;
   }
+
   .about-container {
     width: 75vw;
   }
 }
-
-@media (min-width: $lg) {
+@media (min-width: 991.99px) {
   .profile-banner-container {
     height: 25vh;
     width: 28vw;
     margin-left: 1em;
     padding-top: 2em;
   }
+
   .profile-banner-image {
     width: 8em;
     height: 8em;
     top: 8em;
   }
+
   .profile-banner-hello {
     top: 8em;
     height: 3em;
     width: 6em;
     left: 9.5em;
   }
+
   .about-container {
     width: 43vw;
     margin-left: none;
     margin-top: 5em;
   }
+
   .about-text {
     font-size: 0.8em;
   }
 }
-
-@media (min-width: $xl) {
+@media (min-width: 1199.99px) {
   .profile-banner-text {
     font-size: 0.7em;
     line-height: 1.2em;
   }
+
   .profile-banner-container {
     justify-content: space-between;
     height: 35vh;
   }
+
   .profile-banner-image {
     width: 10em;
     height: 10em;
     top: 8.5em;
     right: 12.5em;
   }
+
   .profile-banner-hello {
     width: 8em;
     height: 4em;
     right: 20em;
   }
+
   .about-text {
     font-size: 0.9em;
   }
 
-  .contact-container {
-    img {
-      transform: scale(1);
-      top: 2.5em;
-      position: absolute;
-    }
+  .contact-container img {
+    transform: scale(1);
+    top: 2.5em;
+    position: absolute;
   }
 
   .contact-container img {
