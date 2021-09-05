@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./assets/styles/portfolioStyles.scss";
 import "./assets/styles/GlobalStyles.scss";
 
-import zanzibarWeb from "./assets/videos/zanzibar_demo.mp4";
+import anipals from "./assets/videos/anipals.mp4";
 import zanzibarJava from "./assets/videos/zanzibar_java.mp4";
 import budgeter from "./assets/videos/budgeter_fx.mp4";
 import catInsta from "./assets/videos/cat-insta.mp4";
@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
       projects: [
         {
           link: reskale,
-          technologies: "#React #HTML #CSS/SCSS #JS #React-Router-Dom",
+          technologies: "#React #JS #Hooks #React-Router-Dom #HTML #CSS/SCSS ",
           description:
             "Won Scotiabank sponsered challenge at HackThe6ix! Designed by Jehnesa Hersman and Chan Ik Chris Jung with backend done by David Chen. I translated the designers' ideas into code with React.",
         },
@@ -27,10 +27,10 @@ export default class Portfolio extends Component {
             "Instagram app for cats! Project to practice JS, React components, mark up, and react-router",
         },
         {
-          link: zanzibarWeb,
-          technologies: "#React #HTML #CSS/SCSS #JS",
+          link: anipals,
+          technologies: "#React #JS #Hooks #React-Router-Dom #HTML #CSS/SCSS ",
           description:
-            "A graphical recreation of a zanzibar game originally coded in Java.",
+            "Won 3rd funniest hack at TechNova2021! Designed by Yasmine Abdelrahman and Jimin Im with dog profiles written by Shriya Kaistha. I worked on the front end by translating the design into code using React",
         },
         {
           link: zanzibarJava,
